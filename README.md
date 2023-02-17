@@ -22,6 +22,7 @@ This project is an example of how to create a Tier 3 infrastructure using Terraf
 
 `Provider`The aws provider is configured to allow the Terraform code to interact with AWS.
 
+![Aws architecture diagram ](https://user-images.githubusercontent.com/107811500/219703556-b233ab81-594f-4740-bb20-ab06be7fc2f0.png)
 
 ## Conclusion:
 
