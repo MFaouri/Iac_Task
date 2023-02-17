@@ -27,3 +27,5 @@ This project is an example of how to create a Tier 3 infrastructure using Terraf
 ## Conclusion:
 
 By using Terraform to create infrastructure as code, the project has been able to create a high availability environment with three availability zones, 3 public subnets for the Application Load Balancer, 3 private subnets for the Auto Scaling Group, and 3 private subnets for the RDS database. The project also makes use of NAT Gateway in one of the public subnets to provide internet access for the EC2 instances to update packages
+
+## Note: After running `terraform apply`, it may take up to 10 minutes for the DNS status to switch from "502 Bad Gateway" to the expected "Apache Greetings" message. During this time, please be patient and allow sufficient time for the DNS record to propagate
